@@ -8,7 +8,7 @@ def read_root():
 
 @app.get("/square/{x}")
 def square(x: int):
-    return {"result": x + x}  # Erro proposital aqui
+    return {"result": x * x}  # Erro proposital aqui
 
 @app.get("/double/{x}")
 def double(x: int):
