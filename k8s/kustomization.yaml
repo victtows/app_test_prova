@@ -1,0 +1,7 @@
+resources:
+  - base/deployment.yaml
+  - base/service.yaml
+
+images:
+  - name: victtows/app_test_prova
+    newTag: latest
